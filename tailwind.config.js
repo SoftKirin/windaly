@@ -30,6 +30,8 @@ module.exports = {
       'gray-divide': '#909090',
       'gray-input': '#FAFAFA',
       'gray-border': '#DBDBDB',
+      'blue-menu': '#1E213A',
+      'blue-body': '#100E1D',
       gray: {
         100: '#EAEAEA',
         200: '#C7C7C7',
@@ -54,7 +56,11 @@ module.exports = {
       R12: '12px',
       DEFAULT: '12px',
       none: '0'
-    }
-  },
+    },
+    transitionTimingFunction: {
+      'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+      'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+    },
+  }, 
   plugins: []
 }
