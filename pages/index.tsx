@@ -25,7 +25,7 @@ export default function Home () {
         <p>Hola</p>
         <footer>
         </footer>
-        <WeeklyWeather/>
+        <WeeklyWeather /*weeklyweather={dailyWeather} timezone ={timezone}*//>
       </main>
     </>
   )
