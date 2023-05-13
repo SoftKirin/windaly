@@ -1,28 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
 
-import image from "next/image"
-
-export default function WeeklyWheater({ weeklyweather, timezone }) {
-    return(
-        <div className="weekly-weather">
-            <h3 className="weekly_title">
-                Weekly <span>Wheater</span>
-            </h3>
-            
-            {weeklywheather.length > 0 &&
-            weeklywheather.map((weather, index)) =>
-                 if (index == 0) {
-                    return;
-                 }
-
-                return ( 
-                    <div className="weekly__card" key={weather.dt}></div>
-                )
-            }
-
-
-
-        </div>
-    )
+const WeeklyWeather = () => {
+  return (
+    <div>
+      <h1>Weekly Weather component</h1>
+    </div>
+  )
 }
+
+export default WeeklyWeather

@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import '../settings/i18'
 import Head from 'next/head'
+import WeeklyWeather from './WeeklyWeather'
+
 
 export default function Home () {
 
@@ -23,6 +25,7 @@ export default function Home () {
         <p>Hola</p>
         <footer>
         </footer>
+        <WeeklyWeather/>
       </main>
     </>
   )
