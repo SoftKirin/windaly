@@ -1,9 +1,10 @@
 
 import i18next from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import { ES } from '@/constants/translate/es'
-import { EN } from '@/constants/translate/en'
+// import { ES } from '@/constants/translate/es'
+// import { EN } from '@/constants/translate/en'
 
+/*
 const resources = {
   es: {
     translation: ES
@@ -18,3 +19,4 @@ i18next.use(initReactI18next).init({
   debug: true,
   resources
 })
+*/
