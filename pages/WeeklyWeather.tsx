@@ -8,7 +8,7 @@ const WeeklyWeather = (/*{weeklyweather, WeeklyWeather, timezone }*/) => {
      </h3>
 
         {WeeklyWeather.length > 0  && 
-            weeklyWeather.map((weather, index)=> {
+            WeeklyWeather.map((weather, index) => {
                 if(index ==0) {
                     return;
                 }
